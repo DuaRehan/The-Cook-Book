@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Style-2.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">COOK BOOK</h1>
+        <ul class="navlinks">
+            <li> <a class = "link" href="#">Home</a></li>
+            <li> <a class = "link" href="#">Explore</a></li>
+            <li> <a class = "link" href="#">Toures</a></li>
+            <li> <a class = "link" href="#">About</a></li>
+            <li class="ctn"> <a href="#" class="ctn"> Contact </a></li>
+        </ul>
+        <img class="menu-btn" src="C:\Users\hp\Desktop\html\project 2 webpage\icons8-menu-rounded-50.png" alt="">
+    </nav>
+    <br><br><br><br><br>
+   <div class="header-content">
+        <div class="content">
+            <img class="banner" src="banner.jpg" alt="" >
+            <br><br> 
+           <h2> Cook to inspire! </h2>
+           <div class="line"></div>
+           <h1> A WONDERFUL GIFT </h1>
+           <a href="#" class="ctn">Learn More</a>
+       </div>
+    </div>
+
+    <section class="salads">
+        <div class="tittle">
+            <br>
+            <h2> Salads </h2>
+            <div class="line"></div>
+            <br>   
+        </div>
+    <div class="row">
+        <div class="col">
+            <img src="C:\Users\hp\Desktop\html\project 2 webpage\salad-926809_1280.jpg" alt="" width="400" height="400">
+            <h4> Ceaser Salad</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis eaque perspiciatis aliquam itaque odio? Saepe!</p>
+            <br>
+            <a href="#" class="ctn" >Learn More</a>
+        </div>
+
+        <div class="col">
+            <img src="C:\Users\hp\Desktop\html\project 2 webpage\bowl-of-fruit-1205155_1280.jpg" alt="" width="400" height="400" >
+            <h4> Fruit Salad</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis eaque perspiciatis aliquam itaque odio? Saepe!</p>
+            <br>
+            <a href="#" class="ctn" >Learn More</a>
+        </div>
+    
+        <div class="col">
+            <img src="C:\Users\hp\Desktop\html\project 2 webpage\spinach-791629_1280.jpg" alt="" width="400" height="400" >
+            <h4> Cobb Salad</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis eaque perspiciatis aliquam itaque odio? Saepe!</p>
+            <br>
+            <a href="#" class="ctn" >Learn More</a>
+        </div>
+
+        <div class="col">
+            <img src="C:\Users\hp\Desktop\html\project 2 webpage\salad-843319_1280.jpg" alt=""width="400" height="400"  >
+            <h4> Cobb Salad</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis eaque perspiciatis aliquam itaque odio? Saepe!</p>
+            <br>
+            <a href="#" class="ctn" >Learn More</a>
+        </div>
+            
+      </div> 
+    </section>
+
+
+    <section class="footer">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, eaque soluta aut aliquid optio voluptates?</p>
+         <p>copyright 2022 The COOK BOOK</p>
+    </section>
+        
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener ('click',()=>{
+        navlinks.classList.toggle('mobile-menu') 
+        })
+    </script>
+    
+
+
+</body>
+</html>
